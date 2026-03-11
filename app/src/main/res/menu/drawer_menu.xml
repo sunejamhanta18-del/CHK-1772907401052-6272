@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Stats" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Stats Over Time" />
+        <item
+            android:id="@+id/nav_translate"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Translate (Hindi/Marathi)" />
+        <item
+            android:id="@+id/nav_shelves"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Shelves" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="Notifications" />
+    </group>
+</menu>
